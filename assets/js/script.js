@@ -4,11 +4,11 @@ console.log("keloke");
 
 let nombreV ="";
 let apellidoV ="";
-let edadV =0;
+
 
 let nombre = document.getElementById("nombre");
 let apellido = document.getElementById("apellido");
-let edad = document.getElementById("edad");
+
 
 let btnEntrar = document.getElementById("btnEntrar");
 
@@ -25,9 +25,6 @@ btnEntrar.addEventListener("click",(e)=> {
     return;
    }
    if(apellidoV === ""){
-    return;
-   }
-   if(edadV === ""){
     return;
    }
 
